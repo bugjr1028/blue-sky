@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 <body bgcolor="#E6E6FA">
 <link rel="icon" href="goosehead.gif">
 <title>robot boy</title>
 </head>
+
 <script type="text/javascript">
-  var randomIndex = getRandom();
+  var randomIndex = 1;
   function getRandom() {
   	var random = Math.floor(Math.random() * 3) + 1;
   	return random;
@@ -24,26 +26,31 @@
   	return audio;
   }
 </script>
-<style>
-body {
-  background-image: url("background.jpg");
-}
-</style>
-<body>
+
+<body style="background-image: url(background.jpg); font-family: Courier New">
 	<div class="mydiv">
-	    <center>
-    	    MIDWEST
-    	    <br>
-    		<a href="1.html">1</a>
-    		|
-    		<a href=" 2.html">2</a>
-    		|
-    		<a href=" 3.html">3</a>
-    		<br>
-    		<br>
-    	  <a href="../index.html">HOME</a> | 
+		<center>
+			<a href="2.html"><img border="0" src="rr1.gif" style="max-width: 1000px"></a>
+		</center>
+	</div>
+	<script>
+		document.write(getAudioTag());
+		document.getElementById('music').play();
+	</script>
+	<div class="mydiv">
+		<br>
+		<center>
+			<a href="1.html">1</a>
+			|
+			<a href="2.html">2</a>
+			|
+			<a href="3.html">3</a>
+		</center>
+		<br>
+		<center>
+    	    <a href="../index.html">HOME</a> | 
     		<a href="../about.html">ABOUT</a>
-    		| robot@residentialrobot.com
+			| bugjr1028@gmail.com
 		</center>
 	</div>
 </body>
